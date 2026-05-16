@@ -85,7 +85,10 @@ st.markdown("""
     </style>
 
     <div class="footer">
-        Built by Parth Chavare
+        Built by 
+        <a href="https://github.com/parthchavare" target="_blank">
+            Parth Chavare
+        </a>
     </div>
 """, unsafe_allow_html=True)
 
