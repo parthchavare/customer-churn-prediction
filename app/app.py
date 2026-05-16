@@ -70,3 +70,23 @@ if st.button("Predict Churn"):
         st.error("The customer is likely to churn.")
     else:
         st.success("The customer is likely to stay.")
+
+
+
+st.markdown("""
+    <style>
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        background-color: default;
+        padding: 10px;
+        color: white;
+        font-size: 14px;
+        border-top: 1px solid #ddd;
+    }
+    </style>
+    <div class="footer">Built by Parth Chavare</div>
+""", unsafe_allow_html=True)
